@@ -173,6 +173,3 @@ class LinkedList:
         for i in range(0, length - n):
             temp = temp.ref
         return temp.item
-
-
-
