@@ -1,23 +1,60 @@
-França  
-França  
+Argentina  
+Chile  
+Argentina  
+Chile  
+Argentina  
 Portugal  
-<models.Node.Node object at 0x104c2d5d0>
-França  
-Malta  
+Chile  
+Argentina  
 Portugal  
-<models.Node.Node object at 0x104c2d600>
-França  
 Espanha  
-Malta  
+O número de elementos são 4.
+<models.Node.Node object at 0x104f659f0>
+Chile  
+Argentina  
 Portugal  
-França  
-Bélgica  
 Espanha  
-Malta  
+Franca  
+<models.Node.Node object at 0x104f659f0>
+Chile  
+Argentina  
 Portugal  
-O número de elementos são 5.
+Italia  
+Espanha  
+Franca  
+China  
+Chile  
+Argentina  
+Portugal  
+Italia  
+Espanha  
+Franca  
+China  
+Japao  
+Chile  
+Argentina  
+Portugal  
+Italia  
+Espanha  
+Franca  
+China  
+Japao  
+Angola  
+Chile  
+Argentina  
+Portugal  
+Italia  
+Espanha  
+Franca  
+O número de elementos são 9.
 Item found
 O país Portugal encontra-se na lista.
-O país França foi eliminado da lista.
-O país Portugal foi eliminado da lista.
-O país Espanha  não se encontra na lista.
+item not found
+O país Alemanha não se encontra na lista.
+O país China foi eliminado da lista.
+O número de elementos são 8.
+O país Franca foi eliminado da lista.
+O número de elementos são 7.
+Item found
+O país Chile foi eliminado da lista.
+O número de elementos são 6.

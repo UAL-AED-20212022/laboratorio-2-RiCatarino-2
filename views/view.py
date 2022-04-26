@@ -1,4 +1,3 @@
-from pickle import LIST
 from models.LinkedList import LinkedList
 
 def main():
@@ -16,15 +15,15 @@ def main():
                 lista_ligada.traverse_list()
             
             elif userinput[0] == "RPDE":
-                lista_ligada.insert_after_item(userinput[1], userinput[2])
+                lista_ligada.insert_after_item(userinput[2], userinput[1])
                 lista_ligada.traverse_list()
                 
             elif userinput[0] == "RPAE":
-                lista_ligada.insert_before_item(userinput[1], userinput[2])
+                lista_ligada.insert_before_item(userinput[2], userinput[1])
                 lista_ligada.traverse_list()
             
             elif userinput[0] == "RPII":
-                lista_ligada.insert_at_index(int(userinput[1]), userinput[2])
+                lista_ligada.insert_at_index(int(userinput[2]), userinput[1])
                 lista_ligada.traverse_list()
                 
             elif userinput[0] == "VNE":
@@ -45,8 +44,9 @@ def main():
                 lista_ligada.delete_at_end()
              
             elif userinput[0] == "EP":
-                if(lista_ligada.delete_element_by_value(userinput[1])):
-                    print(f"O país {userinput[1]} foi eliminado da lista.")
+                if (lista_ligada.search_item(userinput[1])):
+                        lista_ligada.delete_element_by_value(userinput[1])
+                        print(f"O país {userinput[1]} foi eliminado da lista.")
                 else:
                     print(f"O país {userinput[1]}  não se encontra na lista.")
 

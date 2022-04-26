@@ -110,7 +110,7 @@ class LinkedList:
                 print("Item found")
                 return True
             n = n.ref
-        print("item bot found")
+        print("item not found")
         return False
 
 
@@ -143,7 +143,6 @@ class LinkedList:
             n = n.ref
         if n.ref is None:
             print("item not found in the list")
-
         else:
             n.ref = n.ref.ref
             
